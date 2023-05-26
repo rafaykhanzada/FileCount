@@ -31,7 +31,7 @@ const checkFileCount = (folderPath) => {
       // File count remains the same, send email notification
       const mailOptions = {
         from: 'opbwebapp@gmail.com',
-        to: 'rafaykhan3015@gmail.com',
+        to: ['rafaykhan3015@gmail.com','rafaykhan3012@gmail.com'],
         subject: 'File count not increasing',
         text: 'The file count in the specified folder is not increasing.',
       };
